@@ -1,0 +1,8 @@
+{
+  "model_data": "data/mhn_data_merged3.xlsx",
+  "pca_input": "data/xun_climate_merged.xlsx",
+  "waterlogging_input": "outputs/xun_climate_with_Qw.xlsx",
+  "cache": "data/predictions_cache.pkl",
+  "shap": "data/shap_values.csv",
+  "output": "outputs"
+}

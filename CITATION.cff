@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and this code release when using this software."
+type: software
+title: "Climate-responsive winter rapeseed yield ensemble"
+authors:
+  - family-names: Dong
+    given-names: Shuai
+  - family-names: Mu
+    given-names: Haonan
+  - family-names: Liu
+    given-names: Tianyi
+  - family-names: Li
+    given-names: Panpan
+  - family-names: He
+    given-names: Dian
+  - family-names: Liu
+    given-names: Shishi
+license: GPL-3.0-only
+repository-code: "https://github.com/dongshuai9331/rapeseed-climate-ensemble"
+url: "https://github.com/dongshuai9331/rapeseed-climate-ensemble"

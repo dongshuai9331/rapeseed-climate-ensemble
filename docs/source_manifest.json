@@ -1,0 +1,61 @@
+[
+  {
+    "release_file": "src/rapeseed_ensemble/components.py",
+    "source_file": "TCN_LSTM_RF_weight_SHAP_Diebold-Mariano_backup_beforeVI.py",
+    "source_sha256": "82122ffb5a2f98bce145bae85f8f7be134eacb3de540a0985d8e4655d4a48cc1",
+    "changes": [
+      "Relative/configurable paths",
+      "Excluded obsolete unused training and DM entry points",
+      "Corrected outdated feature-selection explanation; numerical function bodies preserved",
+      "Core-only release: remove pure plotting while retaining scientific calculations"
+    ]
+  },
+  {
+    "release_file": "src/rapeseed_ensemble/pipeline.py",
+    "source_file": "run_improved.py",
+    "source_sha256": "62fa8668434c5509e9937676915dfdb3e048c23bc89fc0d87b13e7c47a301efe",
+    "changes": [
+      "Relative component import",
+      "Configurable input/output",
+      "Removed obsolete DM outputs",
+      "Fail fast when Group Lasso is unavailable; no silent Ridge substitution",
+      "Original training, weighting and SHAP functions retained",
+      "Core-only release: remove pure plotting while retaining scientific calculations"
+    ]
+  },
+  {
+    "release_file": "scripts/pca_waterlogging.py",
+    "source_file": "PCA_waterlogging_index.py",
+    "source_sha256": "5a3df9dad8a42bf41c2c16f68d565c11e6440997e87df409560456f77aa8a9c6",
+    "changes": [
+      "Configurable input/output only; original PCA and coefficient formulas unchanged"
+    ]
+  },
+  {
+    "release_file": "scripts/classify_waterlogging.py",
+    "source_file": "level_waterlogging_rape.py",
+    "source_sha256": "29dd58f765b73d1fd81e4c5f80131e057bafc0fff81c57f4f708ab1eb19dd28b",
+    "changes": [
+      "Configurable paths only; historical missing-value behavior preserved"
+    ]
+  },
+  {
+    "release_file": "scripts/bootstrap_rmse.py",
+    "source_file": "compute_final_rmse_tables.py",
+    "source_sha256": "1aa0be270eb6160589ea8b00936f088eb0c6f3cef3d51fba7bebc53ea70925c5",
+    "changes": [
+      "Portable paths",
+      "Output names independent of old table numbering",
+      "Original paired bootstrap and weighting formulas unchanged"
+    ]
+  },
+  {
+    "release_file": "scripts/feature_sensitivity.py",
+    "source_file": "improved_k_sweep.py",
+    "source_sha256": "aee56dc7709fc9e02c29ea153180b8b0bebe571091aa9b74ecc1285b01be09ba",
+    "changes": [
+      "Portable module import/paths; actual five-seed list and fixed RF settings preserved",
+      "Core-only release: remove pure plotting while retaining scientific calculations"
+    ]
+  }
+]
